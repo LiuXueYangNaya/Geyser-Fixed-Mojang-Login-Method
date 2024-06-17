@@ -17,8 +17,8 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config user.name 'Shanwer'
-        git config user.email 'Shanwer@qq.com'
+        git config user.name 'LiuXueYangNaya'
+        git config user.email 'xiaoyuccr@hotmail.com'
 
     - name: Add upstream remote
       run: git remote add upstream https://github.com/GeyserMC/Geyser.git
