@@ -19,6 +19,7 @@ jobs:
       run: |
         git config user.name 'NayaCcR'
         git config user.email 'xiaoyuccr@hotmail.com'
+
     - name: Add upstream remote
       run: git remote add upstream https://github.com/GeyserMC/Geyser.git
 
@@ -35,5 +36,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         branch: 'master'
